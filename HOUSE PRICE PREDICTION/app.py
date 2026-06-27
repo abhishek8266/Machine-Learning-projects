@@ -42,7 +42,7 @@ model_path = os.path.join(
     "house_price_model.pkl"
 )
 
-model = joblib.load(model_path)
+model = joblib.load("house_price_model.pkl")
 
 st.title("🏠 House Price Prediction")
 
