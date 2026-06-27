@@ -30,6 +30,8 @@ def load_data():
 
     return sentiment, trades
 
+sentiment, trades = load_data()
+
 # Data Preprocessing
 
 sentiment['date'] = pd.to_datetime(
