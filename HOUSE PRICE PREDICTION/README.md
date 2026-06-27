@@ -1,6 +1,6 @@
 2 HOUSE PRICE PREDICTION — README.md
 
-```markdown
+
 # 🏠 House Price Prediction using Machine Learning
 
 An end-to-end Machine Learning project that predicts house prices using the Ames Housing Dataset.
@@ -86,4 +86,4 @@ House-Price-Prediction/
 Abhishek Rathour
 
 GitHub:
-https://github.com/abhishek8266
+[https://github.com/abhishek8266](https://github.com/abhishek8266/Machine-Learning-projects)
