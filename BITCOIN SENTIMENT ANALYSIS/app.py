@@ -1,4 +1,5 @@
 # Imports
+import os 
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -14,11 +15,20 @@ st.title("📈 Bitcoin Trading Sentiment Dashboard")
 @st.cache_data
 def load_data():
 
-    sentiment = pd.read_csv("fear_greed_index.csv")
-    trades = pd.read_csv("historical_data_sample.csv")
+    sentiment_path = os.path.join(
+        os.path.dirname(__file__),
+        "fear_greed_index.csv"
+    )
+
+    trades_path = os.path.join(
+        os.path.dirname(__file__),
+        "historical_data_sample.csv"
+    )
+
+    sentiment = pd.read_csv(sentiment_path)
+    trades = pd.read_csv(trades_path)
 
     return sentiment, trades
-sentiment, trades = load_data()
 
 # Data Preprocessing
 
