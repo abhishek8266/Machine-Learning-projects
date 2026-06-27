@@ -32,6 +32,7 @@
 #     )
 
 
+
 import streamlit as st
 import joblib
 import numpy as np
@@ -42,7 +43,7 @@ model_path = os.path.join(
     "house_price_model.pkl"
 )
 
-model = joblib.load("house_price_model.pkl")
+model = joblib.load(model_path)
 
 st.title("🏠 House Price Prediction")
 
