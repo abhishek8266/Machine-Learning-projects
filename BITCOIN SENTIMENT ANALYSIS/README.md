@@ -85,4 +85,4 @@ The analysis was performed on 200K+ trading records.
 Abhishek Rathour
 
 GitHub:
-https://github.com/abhishek8266
+[https://github.com/abhishek8266](https://github.com/abhishek8266/Machine-Learning-projects)
